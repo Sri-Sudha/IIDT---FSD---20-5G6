@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGA SRI SUDHA</title>
+    <style>
+         :root {
+            --primary-color: rgb(3, 3, 139);
+            --secondary-color: #2ecc71;
+        }
+        
+        body {
+            background-color: rgba(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(3, 3, 139);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+        
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .item {
+            background-color: var(--primary-color);
+            border-radius: 10px;
+            margin: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .item img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .item-content {
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .item-content h3 {
+            margin-top: 0;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .item {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <H1>WELCOME TO RAGA SRI SUDHA PORTFOLIO</H1>
+        <nav>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+        <div class="item">
+
+            <div class="item-content">
+                <h3>PROJECT:1 DETECTION AND GRADING OF CATARACTS USING RETINAL IMAGING</h3>
+                <p style="text-align:justify;">Cataract, which is the clouding of the crystalline lens. Cataract is one of the most prevalent causes of blindness in the industrialized world, accounting for more than 50% of blindness. Early detection and treatment can reduce the suffering
+                    of cataract patients and prevent visual impairment from turning into blindness. But the expertise of trained eye specialists is necessary for clinical cataract detection and grading, which may cause difficulties with everybody's early
+                    intervention due to the underlying costs. Retinal imaging is a non-invasive and widely available method for detecting cataracts. However, manual detection and grading of cataracts from retinal images is time-consuming and requires
+                    expertise. In this project we are going to use a deep learning-based system for cataract detection and grading using retinal images. Our system utilizes “RetinaNet”, a state-of-the-art object detection algorithm, and “ResNet”, a state-of-the-art
+                    image classification algorithm for cataract detection and classification of cataract severity of retinal images. We will train and evaluate our system on a dataset of retinal images. The dataset consists of images of a variety of patients
+                    with different types and severities of cataracts.</p>
+            </div>
+        </div>
+
+        <div class="item">
+
+            <div class="item-content">
+                <h3> PROJECT:2 ONLINE CHEQUE CURATION AND ABSTRACT USING DEEP LEARNING ALGORITHMS
+                </h3>
+                <p style="text-align:justify;">This new online cheque curation and abstract system has become essential feature in modern banking system, allowing users to conveniently validate paper cheque remotely through digital platforms, eliminating the need for physical visits
+                    to bank. Traditional methods of cheque processing involve manual handling, which can be time - consuming and error-prone. The proposed system leverages deep learning models such as Residual Network (ResNet) and Optical Character Recognition
+                    (OCR), and to achieve accurate and efficient recognition of handwritten and printed text on cheques. By training on a diverse dataset of cheque images, the models are capable of identifying critical information like the payer’s name,
+                    amount, and date. Users can capture cheque images using their smart phones or other devices, and the deep learning models process the images to extract relevant information. The system performs authenticity verification through watermark
+                    analysis, micro printing detection, and signature verification. Once the cheque is validated, the extracted information will be displayed to user’s screen. The online cheque curation and abstract system is to revolutionize the efficiency
+                    and accuracy of cheques recognition and processing. And customer can speedily validate cheques easily, don’t have visit a physical bank, and cost savings.
+                </p>
+            </div>
+        </div>
+
+        <div class=" item ">
+
+            <div class="item-content ">
+                <h3>PROJECT:3 Visual Gestures as a Language: Enabling Speech Through Images
+                </h3>
+                <p style="text-align:justify;">Communication is an important aspect when it comes to share or express information, feelings, and it brings people closer to each other with better understanding. Sign language, a full-fledged natural language that conveys meaning through
+                    gestures, is the primary chief of communication among Deaf and Dumb people. A gesture is a pattern which may be static, dynamic or both, and is a form of non verbal communication in which bodily motions convey information. Sign language
+                    translation is a task for automatically translating sign languages into written languages which is already existed. Now we are going to implement a system which is used to convert the text which is produced sign language translator
+                    into speech .In this project we are going to implement a deep learning algorithms based system such as CNN and ANN for translation of text (i.e., which is extracted from sign language) into speech. CNN and ANN is to capture intricate
+                    hand movements and to learn the temporal relationships between the hand gestures respectively. Later the translated text is then converted to speech using a Text-To-Speech (TTS) API. This allows the system to provide a complete communication
+                    solution for deaf and mute individuals. .
+                </p>
+            </div>
+        </div>
+
+        <!-- Add more items as needed -->
+    </div>
+
+</body>
+
+</html>
